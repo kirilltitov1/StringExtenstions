@@ -8,7 +8,7 @@
 import Foundation
 
 postfix operator ~
-postfix func ~ (string: String) -> String {
+public postfix func ~ (string: String) -> String {
     if #available(iOS 15, *) {
         return String(localized: "\(string)", comment: "")
     }

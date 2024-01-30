@@ -7,7 +7,7 @@
 
 import Foundation
 
-class RegExpBuilder {
+public class RegExpBuilder {
     
     private var result: String = ""
     
